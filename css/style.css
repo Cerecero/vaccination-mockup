@@ -23,6 +23,15 @@ h2 {
 ul {
     list-style: none;
 }
+button{
+    background-color: #0151cc;
+    color: beige;
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    font-weight: bold;
+}
 .container {
     max-width: 1100px;
     margin: 0 auto;
@@ -93,18 +102,20 @@ ul {
 }
 .box{
     flex: 1;
-    background: #0a51cc;
-    color: #fff;
+    background: #fff;
+    color: #0a51cc;
     border-radius: 10px;
     margin: 20px 10px;
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0.1, 0.1);
     padding: 15px 20px;
 }
 
 .box {
     margin-right: 10px;
 }
-
+.icons{
+    fill: red;
+}
 @media(max-width: 568px) {
     .header .container {
         flex-direction: column;
@@ -115,4 +126,7 @@ ul {
         display: block;
         text-align: center;
     }
+}
+.info{
+    color: #333;
 }
