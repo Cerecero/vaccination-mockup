@@ -212,7 +212,6 @@ footer {
     margin-top: 100px;
     background-color: rgb(240, 241, 255);
 }
-
 footer .contact {
     width: 100%;
     display: inline-flex;
@@ -307,4 +306,19 @@ footer .copyright .terms {
 }
 footer .credits{
     text-align: center;
+}
+footer  a:link{
+    text-decoration: none;
+}
+footer  a:visited{
+    color: rgb(85, 85, 85);
+}
+footer a:hover{
+    color: rgba(15, 51, 158, 0.995);
+}
+li{
+    list-style-type: none;
+}
+footer .about, footer .company, footer .support{
+    padding-left:  50px;
 }
