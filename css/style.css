@@ -205,14 +205,83 @@ ul {
     margin: 5px 20px 0px 5px;
     
 }
+.emergency-contact{
+    display:  inline-flex;
+    justify-content: center;
+}
+.emergency{
+    color:  #929292;
+    margin-left: 80px;
+    font-size: 22px;
+    line-height: 30px;
 
+}
+.emergency h1{
+    font-weight: bold;
+    color: rgb(15, 59, 98);
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.contact{
+    display:inline-flex;
+    margin-top: 30px;
+    margin-left: 120px;
+    margin-bottom: 35px;
+}
+.boxes{
+    margin-right: 80px;
+}
+.info{
+    display: inline-flex;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.info i {
+    color: blue;
+    stroke-opacity: 0;
+    font-size: 30px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+}
+.info p{
+    color: rgb(15, 59, 98);
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 1px;
+    margin-left: 25px;
+}
+.info span{
+    color: rgb(85, 85, 85);
+    margin-left: 1px;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.emergency-contact button{
+    all: unset;
+    font-weight: 600;
+    color: #0151cc;
+    border-radius: 4%;
+    margin-left: 45px;
+    margin-bottom: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.contact-button.active {
+    color: #fff;
+    font-size: 15px;
+    background-color: rgb(19, 73, 236);
+    border: 1px solid rgb(19, 73, 236);
+}
 footer {
     width: 100%;
     padding-top: 30px;
     margin-top: 100px;
     background-color: rgb(240, 241, 255);
 }
-footer .contact {
+footer .contact-footer {
     width: 100%;
     display: inline-flex;
 }
